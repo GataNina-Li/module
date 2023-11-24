@@ -1,6 +1,20 @@
-{
-  "link": "url",
-  "autor": "GataNina-Li / Gata Dios",
-  "nombre": "Imagen Yaoi Hard",
-  "descripción": "No disponible."
-}
+[
+  {
+    "link": "url",
+    "author": "GataNina-Li / Gata Dios",
+    "name": "Imagen Yaoi Hard",
+    "description": "No disponible."
+  },
+  {
+    "link": "otra_url",
+    "author": "Otro Autor",
+    "name": "Otra Imagen Yaoi Hard",
+    "description": "Otra descripción."
+  },
+  {
+    "link": "url_adicional",
+    "author": "Autor Adicional",
+    "name": "Imagen Adicional Yaoi Hard",
+    "description": "Descripción adicional."
+  }
+]
