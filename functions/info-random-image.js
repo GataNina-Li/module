@@ -1,5 +1,5 @@
 function getRandomImage(category, requestedFields = []) {
-const categoryFolder = `yaoiGen/category/${category}.json`
+const categoryFolder = `module/images/category/${category}.json`
 
 // Verifica si el archivo  existe
 if (!fs.existsSync(categoryFolder)) {
