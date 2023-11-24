@@ -1,4 +1,4 @@
-const fs = require('fs')
+/*const fs = require('fs')
 
 function getInfoYaoi(category) {
 const categoryFolder = `module/images/category/${category}.json`
@@ -11,4 +11,4 @@ const fileContent = require(categoryFolder)
 return fileContent
 }
 
-module.exports = getInfoYaoi
+module.exports = getInfoYaoi*/
