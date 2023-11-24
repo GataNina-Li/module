@@ -1,5 +1,8 @@
+const fs = require('fs')
+const path = require('path')
+
 function getRandomImage(category, requestedFields = []) {
-const categoryFolder = `module/images/category/${category}.json`
+const categoryFolder = path.join(__dirname, 'images', 'category', `${category}.json`)
 
 // Verifica si el archivo  existe
 if (!fs.existsSync(categoryFolder)) {
