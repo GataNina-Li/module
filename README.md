@@ -8,7 +8,7 @@ Este módulo ofrece funciones para obtener información de imágenes de manera a
 ## 💻 Instalación
 > Puede instalar este módulo en tu proyecto utilizando el siguiente comando:
 ```bash
-npm install module-gatadios
+npm i module-gatadios
 ```
 
 ## 📁 Agregar a package.json
