@@ -1,5 +1,5 @@
-const getInfoYaoi = require('./lib/info-yaoi')
-const getRandomImage = require('./lib/random-image')
+const getInfoYaoi = require('./functions/info-yaoi')
+const getRandomImage = require('./functions/info-random-image')
 
 module.exports = {
 getInfoYaoi,
