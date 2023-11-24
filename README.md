@@ -18,7 +18,7 @@ npm install module-gatadios
 }
 ```
 
-### Disponible
+### Información de imagen
 | Categoría   | Campos                   |
 |-------------|--------------------------|
 | yaoi-hard   | `link` `author` `name` `description` |
