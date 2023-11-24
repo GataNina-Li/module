@@ -2,6 +2,6 @@
 const getRandomImage = require('./functions/info-random-image')
 
 module.exports = {
-getInfoYaoi,
+//getInfoYaoi,
 getRandomImage,
 }
