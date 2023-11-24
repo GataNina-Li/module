@@ -3,7 +3,7 @@ const categoryFolder = `module/images/category/${category}.json`
 
 // Verifica si el archivo  existe
 if (!fs.existsSync(categoryFolder)) {
-return 'Categoría no encontrada'
+return 'Categoría no encontrada:\n\nVisite https://github.com/GataNina-Li/module para conocer las categorías disponibles.'
 }
 
 // Lee archivo seleccionado
