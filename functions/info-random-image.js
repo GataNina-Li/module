@@ -11,7 +11,7 @@ return 'Categoría no encontrada:\n\nVisite https://github.com/GataNina-Li/modul
 
 const fileContent = require(categoryFolder)
 const randomItem = fileContent[Math.floor(Math.random() * fileContent.length)]
-return randomItem
+return JSON.stringify(randomItem, null, 2)
   
 } catch (error) {
 return `Ah surgido un error inesperado. Comuníquese con el proyecto encargado:\n\nhttps://github.com/GataNina-Li/module`
