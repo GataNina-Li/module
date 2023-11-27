@@ -14,7 +14,7 @@ npm i module-gatadios
 ## 📁 Agregar a package.json
 ```json
 "dependencies": {
-  "module-gatadios": "^1.0.4"
+  "module-gatadios": "^1.0.5"
 }
 ```
 
