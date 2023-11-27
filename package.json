@@ -1,6 +1,6 @@
 {
   "name": "module-gatadios",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Módulo para obtener información y imágenes random.",
   "main": "index.js",
   
