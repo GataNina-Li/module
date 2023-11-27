@@ -1,29 +1,21 @@
 const fs = require('fs')
 const path = require('path')
 
-function getRandomImage(category, requestedFields = []) {
-const categoryFolder = path.join(__dirname, 'images', 'category', `${category}.json`)
+function getRandomImage() {
+try {
+const categoryFolder = path.join(__dirname, 'images', 'category', 'yaoi-hard.json')
 
-// Verifica si el archivo  existe
 if (!fs.existsSync(categoryFolder)) {
 return 'Categoría no encontrada:\n\nVisite https://github.com/GataNina-Li/module para conocer las categorías disponibles.'
 }
 
-// Lee archivo seleccionado
-const fileContent = require(categoryFolder);
-
-// Si no se especifica qué campos quiere, solo se devolverá imagen
-const fieldsToInclude = requestedFields.length === 0 ? ['link'] : requestedFields;
-
-// Filtrar la información
-const filteredData = {}
-fieldsToInclude.forEach(field => {
-if (field in fileContent && fileContent[field]) {
-filteredData[field] = fileContent[field];
-}
-})
-
-return filteredData
-}
+const fileContent = require(categoryFolder)
+const randomItem = fileContent[Math.floor(Math.random() * fileContent.length)]
+return randomItem
+  
+} catch (error) {
+return `Ah surgido un error inesperado. Comuníquese con el proyecto encargado:\n\nhttps://github.com/GataNina-Li/module`
+}}
 
 module.exports = getRandomImage
+
