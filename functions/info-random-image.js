@@ -1,20 +1,24 @@
 const fs = require('fs')
 const path = require('path')
+let moduleUrl = 'https://github.com/GataNina-Li/module'
+let fileError = `Categoría no encontrada:\n\nVisite ${moduleUrl} para conocer las categorías disponibles.`
+let fullError = `Ah surgido un error inesperado. Comuníquese con el proyecto encargado:\n\n${moduleUrl}`
+let categoryFolder
 
 function getRandomImage() {
 try {
-const categoryFolder = path.join(__dirname, '..', 'images', 'category', 'yaoi-hard.json')
+categoryFolder = path.join(__dirname, '..', 'images', 'category', 'yaoi-info.json')
 
 if (!fs.existsSync(categoryFolder)) {
-return 'Categoría no encontrada:\n\nVisite https://github.com/GataNina-Li/module para conocer las categorías disponibles.'
+return fileError
 }
 
 const fileContent = require(categoryFolder)
 const randomItem = fileContent[Math.floor(Math.random() * fileContent.length)]
-return JSON.stringify(randomItem, null, 2)
+return JSON.stringify(randomItem, null, 2) 
   
 } catch (error) {
-return `Ah surgido un error inesperado. Comuníquese con el proyecto encargado:\n\nhttps://github.com/GataNina-Li/module`
+return fullError
 }}
 
 module.exports = getRandomImage
