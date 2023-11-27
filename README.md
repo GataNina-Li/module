@@ -46,7 +46,7 @@ console.log('Name: ', name)
 console.log('Description: ', description)
 
 ```
-> **NOTE** Si un campo no tiene valor o es `null`, este no se mostrará en el resultado final del JSON. Si el campo es `null` y es usado después del formato JSON, este será `undefined`
+> **NOTA:** Si el código arroja un error o advertencia, exponga el caso midiande un `issue.` Si cree saber la solución no dude hacer un `pull request.`
 </details>
 
 -----
