@@ -3,7 +3,7 @@ const path = require('path')
 
 function getRandomImage() {
 try {
-const categoryFolder = path.join(__dirname, 'images', 'category', 'yaoi-hard.json')
+const categoryFolder = path.join(__dirname, '..', 'images', 'category', 'yaoi-hard.json')
 
 if (!fs.existsSync(categoryFolder)) {
 return 'Categoría no encontrada:\n\nVisite https://github.com/GataNina-Li/module para conocer las categorías disponibles.'
