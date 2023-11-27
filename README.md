@@ -28,34 +28,23 @@ npm i module-gatadios
 <summary><b>Uso de categoría</b></summary>
   
 ```js
-const yaoiImages = require('module-gatadios');
+const yaoiImages = require('module-gatadios')
 
-// Ejemplo 1
-const result1 = yaoiImages.getRandomImage('yaoi-hard', ['link'])
-console.log(result1.link)
-// devolverá solo el enlace de una imagen aleatoria de la categoría 'yaoi-hard'.
+// Obtener un JSON completo de la categoría 
+const resultJson = yaoiImages.getRandomImage()
+console.log(resultJson)
 
-// Ejemplo 2
-const result2 = yaoiImages.getRandomImage('yaoi-hard', ['author', 'name'])
-console.log(`Autor: ${result2.author}, Nombre: ${result2.name}`)
-// se obtiene el autor y el nombre de una imagen aleatoria de la categoría 'yaoi-hard'.
+// Usar cada campo 
+const link = resultFields.link
+const author = resultFields.author
+const name = resultFields.name
+const description = resultFields.description
 
-// Ejemplo 3
-const result = yaoiImages.getRandomImage('yaoi-hard', ['link', 'author', 'name', 'description'])
-console.log(`Autor: ${result.author}
-Nombre: ${result.name}
-Descripción: ${result.description}
-Enlace: ${result.link}`)
-// obtener toda la información disponible (enlace, autor, nombre y descripción) de una imagen aleatoria de 'yaoi-hard'
+console.log('Link: ', link)
+console.log('Author: ', author)
+console.log('Name: ', name)
+console.log('Description: ', description)
 
-// Ejemplo 4
-const result4 = yaoiImages.getRandomImage('categoría-no-existente', ['link', 'author']);
-if ('error' in result4) {
-  console.error(result4.error);
-} else {
-  console.log(`Enlace: ${result4.link}, Autor: ${result4.author}`);
-}
-// se maneja el escenario donde la categoría no existe, y si no hay errores, se obtiene el enlace y el autor.
 ```
 > **NOTE** Si un campo no tiene valor o es `null`, este no se mostrará en el resultado final del JSON. Si el campo es `null` y es usado después del formato JSON, este será `undefined`
 </details>
