@@ -21,7 +21,7 @@ npm i module-gatadios
 ### 💫 Información de imagen
 | Categoría   | Parámetros             | Campos                               | Archivo                                                                                  | 
 |-------------|-------------           |--------------------------            |--------------------------                                                                |
-| yaoi-hard   | `getRandomImage()`     | `link` `author` `name` `description` | [`Aquí`](https://github.com/GataNina-Li/module/blob/main/images/category/yaoi-hard.json) |
+| yaoi-info   | `getRandomImage()`     | `link` `author` `name` `description` | [`Aquí`](https://github.com/GataNina-Li/module/blob/main/images/category/yaoi-info.json) |
 
 ## 🖥️ Documentación 
 <details>
