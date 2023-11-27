@@ -8,15 +8,12 @@ let categoryFolder
 function getRandomImage() {
 try {
 categoryFolder = path.join(__dirname, '..', 'images', 'category', 'yaoi-info.json')
-
 if (!fs.existsSync(categoryFolder)) {
 return fileError
 }
-
 const fileContent = require(categoryFolder)
 const randomItem = fileContent[Math.floor(Math.random() * fileContent.length)]
-return JSON.stringify(randomItem, null, 2) 
-  
+return randomItem
 } catch (error) {
 return fullError
 }}
