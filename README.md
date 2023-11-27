@@ -25,16 +25,13 @@ npm i module-gatadios
 
 ## 🖥️ Documentación 
 <details>
-<summary><b>Uso de categoría</b></summary>
+<summary><b>Objeto JSON</b></summary>
   
 ```js
 const yaoiImages = require('module-gatadios')
 
-// Obtener un JSON completo de la categoría 
 const resultJson = yaoiImages.getRandomImage()
-console.log(resultJson)
 
-// Usar cada campo 
 const link = resultFields.link
 const author = resultFields.author
 const name = resultFields.name
@@ -47,6 +44,19 @@ console.log('Description: ', description)
 
 ```
 > **NOTA:** Si el código arroja un error o advertencia, exponga el caso midiande un `issue.` Si cree saber la solución no dude hacer un `pull request.`
+</details>
+
+<details>
+<summary><b>Cadena JSON</b></summary>
+  
+```js
+const yaoiImages = require('module-gatadios')
+
+const resultJson = yaoiImages.getRandomImage()
+const jsonText = JSON.stringify(resultJson, null, 2)
+
+console.log(jsonText)  
+```
 </details>
 
 -----
