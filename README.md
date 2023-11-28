@@ -1,4 +1,4 @@
-# 🌱 module-gatadios
+# [`🌱 module-gatadios`](https://www.npmjs.com/package/module-gatadios)
 
 Este módulo ofrece funciones para obtener información de imágenes de manera aleatoria, centrándose principalmente en contenido relacionado con Yaoi. Sin embargo, este proyecto está abierto a modificaciones y a la incorporación de nuevas ideas.
 
