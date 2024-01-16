@@ -1,0 +1,34 @@
+{
+  "imagenesReclamadas": [
+    {
+      "index": 1,
+      "urlImagen": "ruta/de/imagen1.jpg",
+      "nombre": "EjemploImagen1",
+      "descripcion": "Una imagen impresionante",
+      "costo": 15,
+      "estado": "ocupada",
+      "clase": "legendario",
+      "codigoImagen": "XyZ456@!"
+    },
+    {
+      "index": 2,
+      "urlImagen": "ruta/de/imagen2.jpg",
+      "nombre": "EjemploImagen2",
+      "descripcion": "Una imagen interesante",
+      "costo": 8,
+      "estado": "libre",
+      "clase": "raro",
+      "codigoImagen": "PqR789#%"
+    },
+    {
+      "index": 3,
+      "urlImagen": "ruta/de/imagen3.jpg",
+      "nombre": "EjemploImagen3",
+      "descripcion": "Una imagen asombrosa",
+      "costo": 20,
+      "estado": "en proceso de compra",
+      "clase": "Sagrado",
+      "codigoImagen": "MnO012$#"
+    }
+  ]
+}
