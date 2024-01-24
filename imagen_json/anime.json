@@ -2,32 +2,29 @@
   "imagenesReclamadas": [
     {
       "index": 1,
-      "urlImagen": "ruta/de/imagen1.jpg",
-      "nombre": "EjemploImagen1",
-      "descripcion": "Una imagen impresionante",
-      "costo": 15,
-      "estado": "ocupada",
-      "clase": "legendario",
+      "urlImagen": "https://telegra.ph/file/13739fe030f0a5c8cdd9c.jpg",
+      "nombre": "Son Goku",
+      "descripcion": "Dragon Ball",
+      "costo": 200,
+      "clase": "Común",
       "codigoImagen": "XyZ456@!"
     },
     {
       "index": 2,
-      "urlImagen": "ruta/de/imagen2.jpg",
-      "nombre": "EjemploImagen2",
-      "descripcion": "Una imagen interesante",
-      "costo": 8,
-      "estado": "libre",
-      "clase": "raro",
+      "urlImagen": "https://telegra.ph/file/b31cd03f716d362b33716.jpg",
+      "nombre": "Mikasa Ackerman",
+      "descripcion": "Attack on Titan (Shingeki no Kyojin)",
+      "costo": 700,
+      "clase": "Raro",
       "codigoImagen": "PqR789#%"
     },
     {
       "index": 3,
-      "urlImagen": "ruta/de/imagen3.jpg",
-      "nombre": "EjemploImagen3",
-      "descripcion": "Una imagen asombrosa",
-      "costo": 20,
-      "estado": "en proceso de compra",
-      "clase": "Sagrado",
+      "urlImagen": "https://telegra.ph/file/98c672926fbc35a4b9948.jpg",
+      "nombre": "Tom Holland",
+      "descripcion": "Spider-Man",
+      "costo": 1100,
+      "clase": "Épico",
       "codigoImagen": "MnO012$#"
     }
   ]
