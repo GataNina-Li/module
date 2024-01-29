@@ -8,7 +8,7 @@
       "price": 200,
       "class": "Común",
       "type": "Anime",
-      "code": "XyZ456@!4"
+      "code": "XyZ456@!4S"
     },
     {
       "index": 2,
@@ -18,7 +18,7 @@
       "price": 700,
       "class": "Raro",
       "type": "Anime",
-      "code": "PqR789#%3"
+      "code": "PqR789#%3T"
     },
     {
       "index": 3,
@@ -28,7 +28,7 @@
       "price": 1100,
       "class": "Épico",
       "type": "Actor, Celebridad",
-      "code": "MnO012$#2"
+      "code": "MnO012$#2P"
     }
   ]
 }
