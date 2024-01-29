@@ -29,6 +29,16 @@
       "class": "Épico",
       "type": "Actor, Celebridad",
       "code": "MnO012$#2P"
-    }
+    },
+    {
+    "index": 4,
+    "url": "https://telegra.ph/file/f689a972cfc1c5efff189.jpg",
+    "name": "Izuku Midoriya",
+    "desp": "My Hero Academia",
+    "class": "Legendario",
+    "type": "Acción, Superpoderes, Escolar",
+    "price": 1746,
+    "code": "vg&1u5+y+9"
+   }
   ]
 }
