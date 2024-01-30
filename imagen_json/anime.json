@@ -39,6 +39,66 @@
     "type": "Acción, Superpoderes, Escolar",
     "price": 1746,
     "code": "vg&1u5+y+9"
+   },
+     {
+    "index": 5,
+    "url": "https://telegra.ph/file/4b11562e08b8512868ed4.jpg",
+    "name": "Naruto Uzumaki",
+    "desp": "Naruto Es Un Ninja Muy Poderoso. Para Llegar Al Nivel Que TeníA Al Final De Naruto Shippuden, Naruto Tuvo Que Entrenar Durante Mucho Tiempo, Fortaleciendo Sus Habilidades Y Superando Sus Debilidades.",
+    "class": "Raro",
+    "type": "Aventura, Acción, Fantasía",
+    "price": 675,
+    "code": "eFV6s95#!*"
+  },
+  {
+    "index": 6,
+    "url": "https://telegra.ph/file/2e163769ea2f66b4cb455.jpg",
+    "name": "Itachi Uchiha",
+    "desp": "Itachi Es Un Miembro Experimentado Del Clan Uchiha Y Un Gran Usuario Del Elemento Fuego. Conoce Jutsus Como Las Llamas Del FéNix O La Gran Bola De Fuego Jutsu.",
+    "class": "Raro",
+    "type": "Fuego, Aventura, Fantasía",
+    "price": 678,
+    "code": "i0X5R&z7+:"
+  },
+  {
+    "index": 7,
+    "url": "https://telegra.ph/file/6861039367462755c84d1.jpg",
+    "name": "Monkey D. Luffy",
+    "desp": "One Piece",
+    "class": "Común",
+    "type": "Manga, Anime, Aventura, ",
+    "price": 153,
+    "code": "y1$Y!1O6N_"
+  },
+  {
+    "index": 8,
+    "url": "https://telegra.ph/file/d311c7f4a32d843ace899.jpg",
+    "name": "Light Yagami",
+    "desp": "Death Note",
+    "class": "Poco Común",
+    "type": "Psicológico, Misterio, Anime, Crime",
+    "price": 308,
+    "code": "U6L&02^D$R"
+  },
+  {
+    "index": 9,
+    "url": "https://telegra.ph/file/70fadfc8d38f2d307cd35.jpg",
+    "name": "Misa Amane",
+    "desp": "Death Note",
+    "class": "Épico",
+    "type": "Misterio, Anime, Modelo, Cantante",
+    "price": 808,
+    "code": "fQMd!!1_34"
+  },
+  {
+    "index": 10,
+    "url": "https://telegra.ph/file/faa41f0647445c6097041.jpg",
+    "name": "Soichiro Yagami",
+    "desp": "Death Note",
+    "class": "Común",
+    "type": "Crime, Misterio, Anime, Policía",
+    "price": 108,
+    "code": "J_#qYe+624"
    }
   ]
 }
