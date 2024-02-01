@@ -99,6 +99,26 @@
     "type": "Crime, Misterio, Anime, Policía",
     "price": 108,
     "code": "J_#qYe+624"
+   },
+   {
+    "index": 11,
+    "url": "https://telegra.ph/file/a803779df82b23707a0af.jpg",
+    "name": "Asuna Yuuki",
+    "desp": "Sword Art Online",
+    "class": "Épico",
+    "type": "Anime",
+    "price": 1047,
+    "code": "&HS31^Md6@"
+  },
+  {
+    "index": 12,
+    "url": "https://telegra.ph/file/9d8777e630c32a244ce9c.jpg",
+    "name": "Erza Scarlet",
+    "desp": "Fairy Tail",
+    "class": "Épico",
+    "type": "Anime",
+    "price": 1179,
+    "code": "!3Ibu6@7&j"
    }
   ]
 }
