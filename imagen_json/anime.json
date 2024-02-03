@@ -139,6 +139,26 @@
     "type": "Aventura, Acción, Demonios",
     "price": 1184,
     "code": "q@$3Vw8W1$"
+  },
+  {
+    "index": 15,
+    "url": "https://telegra.ph/file/fc16a178da15e5c629cbe.jpg",
+    "name": "Brook",
+    "desp": "Brook Es Un Personaje De 'One Piece' Que Tiene Una Personalidad Muy Carismática Y Divertida. Es Un Personaje Muy Peculiar, Ya Que Es Una Calavera Hablante, Y Es Un Músico Muy Talentoso. Además, Tiene Un Humor Unico Y Alegre, A Pesar De Que En Ocasiones Es Un Poco Engreído Y También Muestra Gran Lealtad A Sus c\nCompañeros Y Su Capitán Monkey D. Luffy.",
+    "class": "Poco Común",
+    "type": "Aventura, Acción, Piratas",
+    "price": 300,
+    "code": "%8*52mtx*L"
+  },
+  {
+    "index": 16,
+    "url": "https://telegra.ph/file/c33eca3c3b52e11697b65.jpg",
+    "name": "Roronoa Zoro",
+    "desp": "Zoro Es Uno De Los Tripulantes De La Tripulación De Luffy, Y Es Uno  De Los Más Fuertes Y Esforzados. Su Personalidad Es Fuerte, Determinada Y Dura, Pero También Tiene Un Gran Corazón Y Una Gran Lealtad A Su Capitán.",
+    "class": "Supremo",
+    "type": "Aventura, Acción, Anime, Katana",
+    "price": 19256,
+    "code": "7c/89e!oq*"
   }
   ]
 }
