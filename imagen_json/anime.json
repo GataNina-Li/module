@@ -68,7 +68,7 @@
     "class": "Común",
     "type": "Manga, Anime, Aventura",
     "price": 153,
-    "code": "0>KHO7"
+    "code": "0<KHO7"
   },
   {
     "index": 8,
@@ -88,7 +88,7 @@
     "class": "Épico",
     "type": "Misterio, Anime, Modelo, Cantante",
     "price": 808,
-    "code": "3i>M5z"
+    "code": "3i<M5z"
   },
   {
     "index": 10,
