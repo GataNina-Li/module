@@ -4,7 +4,7 @@
       "index": 1,
       "url": "https://telegra.ph/file/13739fe030f0a5c8cdd9c.jpg",
       "name": "Son Goku",
-      "desp": "Dragon Ball",
+      "desp": "Dragon Ball Super",
       "price": 200,
       "class": "Común",
       "type": "Anime",
@@ -169,6 +169,26 @@
     "type": "Aventura, Acción, Demoníaco",
     "price": 700,
     "code": "<84NMj"
+  },
+  {
+    "index": 18,
+    "url": "https://telegra.ph/file/4f9ba16b9292716d8cccb.jpg",
+    "name": "Vox",
+    "desp": "Hazbin Hotel",
+    "class": "Raro",
+    "type": "Demoníaco, Aventura, Acción",
+    "price": 659,
+    "code": "w@q09O"
+  },
+  {
+    "index": 19,
+    "url": "https://telegra.ph/file/d944ef23bbce001e8524f.jpg",
+    "name": "Goku Black",
+    "desp": "Dragon Ball Super",
+    "class": "Legendario",
+    "type": "Acción, Aventura, Combate, Anime",
+    "price": 2178,
+    "code": "TA08*p"
   }
   ]
 }
