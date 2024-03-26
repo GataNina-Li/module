@@ -208,6 +208,17 @@
     "type": "Anime, Acción, Aventura, Ciencia Ficción, Fantasía, Artes Marciales, Universos Paralelos",
     "price": 2178,
     "code": "TA08*p"
+  },
+  {
+    "index": 20,
+    "url": "https://telegra.ph/file/75dda3736c12370c62846.jpg",
+    "name": "Polo Benavent",
+    "desp": "Élite",
+    "info": "Leopoldo Benavent Villada, más comúnmente conocido como Polo, fue un personaje principal en la serie Élite de Netflix. Era un estudiante que asistía a Las Encinas que se convirtió en objeto de odio masivo después del asesinato accidental de su compañera de clase, Marina Nunier Osuna. Fue interpretado por Álvaro Rico.",
+    "class": "Épico",
+    "type": "Drama adolescente, Intriga, Suspenso, Crimen, Amoríos, Secretos, Escuela privada, Clase social, Suspenso, Serie, Triángulos amorosos, Diversidad, Juventud, Traición, Misterio",
+    "price": 1096,
+    "code": "t7_o0w"
   }
   ]
 }
