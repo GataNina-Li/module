@@ -19,11 +19,14 @@ npm i module-gatadios
 ```
 
 ### 💫 Información de imagen
-| Categoría   | Parámetros             | Campos                               | Archivo                                                                                  | 
-|-------------|-------------           |--------------------------            |--------------------------                                                                |
-| yaoi-info   | `getRandomImage()`     | `link` `author` `name` `description` | [`Aquí`](https://github.com/GataNina-Li/module/blob/main/images/category/yaoi-info.json) |
+| Categoría | Función | Campos | Archivo | Resultado | Contenido (+18) |
+|-----------|-----------|-----------|-----------|-----------|-----------|
+| Yaoi - Info | `getRandomImage()` | `link` `author` `name` `description` | [`Aquí`](https://github.com/GataNina-Li/module/blob/main/images/category/yaoi-info.json) | Imagen + información | ❌ |
+| Boys - Imagen | `getRandomImageBoys()` | `ninguno` | [`Aquí`](https://github.com/GataNina-Li/module/blob/main/folder_bl/boys.json) | Imagen | ❌ |
 
 ## 🖥️ Documentación 
+<details>
+<summary><b>getRandomImage()</b></summary>
 <details>
 <summary><b>Objeto JSON</b></summary>
   
@@ -56,6 +59,23 @@ const resultJson = yaoiImages.getRandomImage()
 const jsonText = JSON.stringify(resultJson, null, 2)
 
 console.log(jsonText)  
+```
+</details>
+</details>
+
+<details>
+<summary><b>getRandomImageBoys()</b></summary>
+  
+```js
+const getRandomImageBoys = require('module-gatadios')
+
+const randomImage = getRandomImageBoys()
+
+if (randomImage) {
+console.log('Imagen aleatoria:', randomImage)
+} else {
+console.log('Error al obtener la imagen.')
+}
 ```
 </details>
 
