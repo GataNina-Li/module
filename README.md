@@ -21,8 +21,8 @@ npm i module-gatadios
 ### 💫 Información de imagen
 | Categoría | Función | Campos | Archivo | Resultado | Contenido (+18) |
 |-----------|-----------|-----------|-----------|-----------|-----------|
-| Yaoi - Info | `getRandomImage()` | `link` `author` `name` `description` | [`Aquí`](https://github.com/GataNina-Li/module/blob/main/images/category/yaoi-info.json) | Imagen + información | ❌ |
-| Boys - Imagen | `getRandomImageBoys()` | `ninguno` | [`Aquí`](https://github.com/GataNina-Li/module/blob/main/folder_bl/boys.json) | Imagen | ❌ |
+| Yaoi | `getRandomImage()` | `link` `author` `name` `description` | [`Aquí`](https://github.com/GataNina-Li/module/blob/main/images/category/yaoi-info.json) | Imagen + información | ❌ |
+| Boys | `getRandomImageBoys()` | `ninguno` | [`Aquí`](https://github.com/GataNina-Li/module/blob/main/folder_bl/boys.json) | Imagen | ❌ |
 
 ## 🖥️ Documentación 
 <details>
