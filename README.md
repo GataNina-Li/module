@@ -23,7 +23,7 @@ npm i module-gatadios
 |-----------|-----------|-----------|-----------|-----------|-----------|
 | Yaoi | `getRandomImage()` | `link` `author` `name` `description` | [`Aquí`](https://github.com/GataNina-Li/module/blob/main/images/category/yaoi-info.json) | Imagen + información | ❌ |
 | Boys | `getRandomImageBoys()` | `ninguno` | [`Aquí`](https://github.com/GataNina-Li/module/blob/main/folder_bl/boys.json) | Imagen | ❌ |
-
+| Nsfw | `getRandomImageNsfw()` | `texto` | [`Aquí`](https://github.com/GataNina-Li/module/tree/main/nsfw) | Imagen | ✅ |
 ## 🖥️ Documentación 
 <details>
 <summary><b>getRandomImage()</b></summary>
@@ -75,6 +75,27 @@ if (randomImage) {
 console.log('Imagen aleatoria:', randomImage)
 } else {
 console.log('Error al obtener la imagen.')
+}
+```
+</details>
+
+<details>
+<summary><b>getRandomImageNsfw()</b></summary>
+
+<details>
+<summary><b>Contenido disponible</b></summary>
+  
+- nsfwfoot, nsfwloli
+</details>
+
+```js
+const getRandomImageNsfw = require('module-gatadios')
+let keyword = 'nsfwfoot'
+let randomImage = getRandomImageNsfw(keyword)
+if (randomImage) {
+console.log('Imagen aleatoria: ', randomImage)
+} else {
+console.log('No se pudo obtener una imagen aleatoria.')
 }
 ```
 </details>
