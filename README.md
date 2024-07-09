@@ -85,7 +85,7 @@ console.log('Error al obtener la imagen.')
 <details>
 <summary><b>Contenido disponible</b></summary>
   
-- nsfwfoot, nsfwloli
+- nsfwfoot, nsfwloli, nsfwass, nsfwbdsm, nsfwcum, nsfwero
 </details>
 
 ```js
