@@ -5,7 +5,9 @@ const jsonFiles = {
 'nsfwfoot': 'nsfwfoot.json',
 'nsfwloli': 'nsfwloli.json',    
 'nsfwass': 'nsfwass.json',  
+'nsfwbdsm': 'nsfwbdsm.json',  
 'nsfwcum': 'nsfwcum.json',  
+'nsfwero': 'nsfwero.json',  
 }
 
 function loadJsonData(filename) {
