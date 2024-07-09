@@ -8,7 +8,7 @@ const jsonFiles = {
 
 function loadJsonData(filename) {
 try {
-const jsonPath = path.join(__dirname, 'nsfw', filename)
+const jsonPath = path.join(__dirname, '..', 'nsfw', filename)
 const data = JSON.parse(fs.readFileSync(jsonPath, 'utf8'))
 return data
 } catch (error) {
