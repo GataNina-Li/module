@@ -11,6 +11,7 @@ const jsonFiles = {
 'nsfwfemdom': 'nsfwfemdom.json', 
 'nsfwglass': 'nsfwglass.json',
 'nsfwgirl': 'nsfwgirl.json',
+'nsfwhentai': 'nsfwhentai.json',
 }
 
 function loadJsonData(filename) {
